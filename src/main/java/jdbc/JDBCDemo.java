@@ -67,6 +67,7 @@ public class JDBCDemo {
         System.out.println(conn);
     }
 
+    // update和delete和insert操作
     public void testStatement(Connection conn) throws Exception {
         String sql = "insert into customers (name, email, birth) " +
                 "values('XYZ', 'xyz@qq.com', '1990-10-13');";
